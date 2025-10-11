@@ -1,15 +1,11 @@
 """
-Topic Modeling Pipeline for Consumer Complaint Narratives
-=========================================================
-This script performs:
+What does the code do?
 1. Text cleaning and preprocessing (tokenization, stopword & POS-based filtering)
 2. Text vectorization using Bag of Words (BoW) and TF-IDF
 3. Topic extraction using:
    - Latent Dirichlet Allocation (LDA)
    - Latent Semantic Analysis (LSA)
 4. Coherence evaluation using Gensim
-
-Author: [Your Name]
 """
 
 # === Imports ===
