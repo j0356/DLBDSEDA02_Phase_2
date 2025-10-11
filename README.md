@@ -1,9 +1,9 @@
 # DLBDSEDA02_Phase_2
 
-## Pre-Requisites
+## 📚 Pre-Requisites
 - Python 3.12
 - git
-## Code Setup
+## 👨‍💻 Code Setup
 Open a terminal, then paste the following commands in correct order.
 
 Step 1 - Clone the project
