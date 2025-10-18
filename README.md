@@ -24,7 +24,7 @@ python3 -m venv env
 ```
 Step 3 - Install the necessary dependecies
 ```
-pip install -r requiremnets.txt
+pip install -r requirements.txt
 ```
 Step 4 - Run the code
 ```
