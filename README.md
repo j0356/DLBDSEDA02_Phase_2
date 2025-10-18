@@ -30,3 +30,17 @@ Step 4 - Run the code
 ```
 python main.py
 ```
+
+## 📊 Visualization
+
+After running `main.py`, a folder named **`output`** will be created, where you can find the following PNG files:
+
+* **`coherence_score.png`** $\rightarrow$ Depicts the coherence score ($C_v$) for the range of topics tested to find the **optimal number of topics** based on this score.
+* **`topics_lda_bow.png`** $\rightarrow$ Visualizes what each topic is about based on its **most important words**, which are also displayed with their **weight score**.
+* **`topics_lsa_tf-idf.png`** $\rightarrow$ The **same visualization as LDA** but using the LSA algorithm (which sometimes finds different/complementary patterns).
+
+## 🏃‍♂️‍➡️ Runtime Info
+
+The pipeline took **approximately 23 minutes** to run on the following CPU: **`AMD Ryzen 5 8400F 6-Core`**. However, this duration might differ based on the CPU you are running.
+
+Additionally, the pipeline will take longer if you increase the number of topics to test for optimization, specifically, if you increase the **maximum range in `NUM_TOPICS_RANGE`**.
